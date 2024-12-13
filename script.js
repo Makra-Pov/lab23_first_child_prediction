@@ -1,4 +1,3 @@
-// Display Date and Time
 function updateDateTime() {
     const now = new Date();
     const year = now.getFullYear();
@@ -47,7 +46,6 @@ function updateDateTime() {
       };
     }
   
-    // Update the prediction result
     predictionElement.textContent = `Predicted : ${prediction.name}`;
     childImage.src = prediction.img;
     childImage.style.display = 'block';

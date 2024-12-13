@@ -11,7 +11,7 @@ body {
   }
   .centered-image {
     display: block;
-    margin: 0 auto; /* Centers the image horizontally */
+    margin: 0 auto;
   }
   
   
